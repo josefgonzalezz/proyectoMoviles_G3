@@ -110,6 +110,21 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: HomePageWidget.routeName,
           path: HomePageWidget.routePath,
           builder: (context, params) => HomePageWidget(),
+        ),
+        FFRoute(
+          name: IngresarGastoWidget.routeName,
+          path: IngresarGastoWidget.routePath,
+          builder: (context, params) => IngresarGastoWidget(),
+        ),
+        FFRoute(
+          name: VerGastosWidget.routeName,
+          path: VerGastosWidget.routePath,
+          builder: (context, params) => VerGastosWidget(),
+        ),
+        FFRoute(
+          name: VerGraficaWidget.routeName,
+          path: VerGraficaWidget.routePath,
+          builder: (context, params) => VerGraficaWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

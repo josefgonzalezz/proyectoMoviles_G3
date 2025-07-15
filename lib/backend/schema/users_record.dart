@@ -50,10 +50,10 @@ class UsersRecord extends FirestoreRecord {
   String get secondName => _secondName ?? '';
   bool hasSecondName() => _secondName != null;
 
-  // "weeklylimit" field.
-  String? _weeklylimit;
-  String get weeklylimit => _weeklylimit ?? '';
-  bool hasWeeklylimit() => _weeklylimit != null;
+  // "limite_semanal" field.
+  String? _limiteSemanal;
+  String get limiteSemanal => _limiteSemanal ?? '';
+  bool hasLimiteSemanal() => _limiteSemanal != null;
 
   void _initializeFields() {
     _email = snapshotData['email'] as String?;
@@ -63,7 +63,7 @@ class UsersRecord extends FirestoreRecord {
     _creationDate = snapshotData['creationDate'] as DateTime?;
     _name = snapshotData['name'] as String?;
     _secondName = snapshotData['SecondName'] as String?;
-    _weeklylimit = snapshotData['weeklylimit'] as String?;
+    _limiteSemanal = snapshotData['limite_semanal'] as String?;
   }
 
   static CollectionReference get collection =>
@@ -107,7 +107,7 @@ Map<String, dynamic> createUsersRecordData({
   DateTime? creationDate,
   String? name,
   String? secondName,
-  String? weeklylimit,
+  String? limiteSemanal,
 }) {
   final firestoreData = mapToFirestore(
     <String, dynamic>{
@@ -118,7 +118,7 @@ Map<String, dynamic> createUsersRecordData({
       'creationDate': creationDate,
       'name': name,
       'SecondName': secondName,
-      'weeklylimit': weeklylimit,
+      'limite_semanal': limiteSemanal,
     }.withoutNulls,
   );
 
@@ -137,7 +137,7 @@ class UsersRecordDocumentEquality implements Equality<UsersRecord> {
         e1?.creationDate == e2?.creationDate &&
         e1?.name == e2?.name &&
         e1?.secondName == e2?.secondName &&
-        e1?.weeklylimit == e2?.weeklylimit;
+        e1?.limiteSemanal == e2?.limiteSemanal;
   }
 
   @override
@@ -149,7 +149,7 @@ class UsersRecordDocumentEquality implements Equality<UsersRecord> {
         e?.creationDate,
         e?.name,
         e?.secondName,
-        e?.weeklylimit
+        e?.limiteSemanal
       ]);
 
   @override

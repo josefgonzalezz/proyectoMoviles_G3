@@ -165,8 +165,32 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'First name',
       'en': '',
     },
+    '3mq9xfe6': {
+      'es': 'Field is required',
+      'en': '',
+    },
+    '6l4hi57r': {
+      'es': 'Solo letras, sin espacios',
+      'en': '',
+    },
+    'tonpoxsm': {
+      'es': 'Please choose an option from the dropdown',
+      'en': '',
+    },
     'luxakmdn': {
       'es': 'Last Name',
+      'en': '',
+    },
+    'g517s1l8': {
+      'es': 'Field is required',
+      'en': '',
+    },
+    '6hnqzjx2': {
+      'es': 'solo letras, sin espacios',
+      'en': '',
+    },
+    '66mdlr1j': {
+      'es': 'Please choose an option from the dropdown',
       'en': '',
     },
     'r364rim4': {
@@ -177,12 +201,36 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'email',
       'en': '',
     },
+    'qvyivhkh': {
+      'es': 'email is required',
+      'en': '',
+    },
+    'tho6534o': {
+      'es': 'Se necesita un gmail valido',
+      'en': '',
+    },
+    '82lu67s4': {
+      'es': 'Please choose an option from the dropdown',
+      'en': '',
+    },
     '08a40y4j': {
       'es': 'Password',
       'en': '',
     },
     '56w2v43q': {
       'es': 'password',
+      'en': '',
+    },
+    'wt7zvajq': {
+      'es': 'password is required',
+      'en': '',
+    },
+    'hvzt9e2e': {
+      'es': 'Al menos 7 caracteres',
+      'en': '',
+    },
+    'p7ru9enx': {
+      'es': 'Please choose an option from the dropdown',
       'en': '',
     },
     'vnfqp6oy': {
@@ -193,6 +241,14 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'confirm password',
       'en': '',
     },
+    '3qx1g3vo': {
+      'es': 'confirm password is required',
+      'en': '',
+    },
+    '1kidjqb9': {
+      'es': 'Please choose an option from the dropdown',
+      'en': '',
+    },
     'fqcfo5jf': {
       'es': 'Birthdate',
       'en': '',
@@ -201,12 +257,28 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'mm/dd/yyyy',
       'en': '',
     },
+    'xcwjl3bn': {
+      'es': 'mm/dd/yyyy is required',
+      'en': '',
+    },
+    'ccp16hbt': {
+      'es': 'Please choose an option from the dropdown',
+      'en': '',
+    },
     'c0zwoku9': {
       'es': 'Weekly limit:',
       'en': '',
     },
     'fygv3fdo': {
       'es': 'Weekly limit',
+      'en': '',
+    },
+    '4qvbzs6l': {
+      'es': 'Ingrese un limite valido ',
+      'en': '',
+    },
+    'qvu0l4pn': {
+      'es': 'Please choose an option from the dropdown',
       'en': '',
     },
     '3281meg8': {
@@ -247,8 +319,36 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Email',
       'en': '',
     },
+    'a4sgtyes': {
+      'es': 'Field is required',
+      'en': '',
+    },
+    'swbbi7k1': {
+      'es': 'At least 10 characters',
+      'en': '',
+    },
+    'gp92n0n3': {
+      'es': 'Se require un gmail valido',
+      'en': '',
+    },
+    'd15qvjtk': {
+      'es': 'Please choose an option from the dropdown',
+      'en': '',
+    },
     '2ieg5bx5': {
       'es': 'Password',
+      'en': '',
+    },
+    'y5ltk7y4': {
+      'es': 'Field is required',
+      'en': '',
+    },
+    'qn3i74uc': {
+      'es': 'At least 10 characters',
+      'en': '',
+    },
+    'a6ectxlh': {
+      'es': 'Please choose an option from the dropdown',
       'en': '',
     },
     '4xfcxjjl': {
@@ -309,6 +409,39 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     '02vjg8ug': {
       'es': 'Inicio',
       'en': 'Home',
+    },
+  },
+  // ingresarGasto
+  {
+    'f7ehieok': {
+      'es': 'Page Title',
+      'en': '',
+    },
+    'wzq0s2yi': {
+      'es': 'Home',
+      'en': '',
+    },
+  },
+  // verGastos
+  {
+    'kvxim5vm': {
+      'es': 'Page Title',
+      'en': '',
+    },
+    'a5oatey9': {
+      'es': 'Home',
+      'en': '',
+    },
+  },
+  // verGrafica
+  {
+    'jnkt9zf2': {
+      'es': 'Page Title',
+      'en': '',
+    },
+    'fg3o19et': {
+      'es': 'Home',
+      'en': '',
     },
   },
   // Miscellaneous

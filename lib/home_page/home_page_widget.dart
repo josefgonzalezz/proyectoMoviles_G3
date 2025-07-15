@@ -107,17 +107,18 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                               children: [
                                 Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
-                                      7.0, 7.0, 7.0, 0.0),
+                                      0.0, 7.0, 0.0, 0.0),
                                   child: Container(
-                                    width:
-                                        MediaQuery.sizeOf(context).width * 1.0,
+                                    width: MediaQuery.sizeOf(context).width *
+                                        0.937,
                                     height: 94.4,
                                     decoration: BoxDecoration(
-                                      color: Color(0xFF0B0303),
+                                      color: FlutterFlowTheme.of(context)
+                                          .secondaryBackground,
                                       image: DecorationImage(
                                         fit: BoxFit.cover,
                                         image: Image.asset(
-                                          'assets/images/fondo-pantalla-fondo-negro-telefono_764067-1177.jpg',
+                                          'assets/images/f8597b16db9df33ec36cbb430103ff0b.jpg',
                                         ).image,
                                       ),
                                       borderRadius: BorderRadius.circular(15.0),
@@ -200,14 +201,14 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                     ),
                                   ),
                                 ),
-                              ]
-                                  .divide(SizedBox(height: 15.0))
-                                  .addToStart(SizedBox(height: 12.0)),
+                              ].divide(SizedBox(height: 15.0)),
                             ),
                           ),
                           Expanded(
                             child: Row(
-                              mainAxisSize: MainAxisSize.max,
+                              mainAxisSize: MainAxisSize.min,
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.stretch,
                               children: [
                                 Stack(
                                   children: [
@@ -541,7 +542,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                     ),
                                   ],
                                 ),
-                              ].divide(SizedBox(width: 50.0)),
+                              ].divide(SizedBox(width: 20.0)),
                             ),
                           ),
                           Stack(
