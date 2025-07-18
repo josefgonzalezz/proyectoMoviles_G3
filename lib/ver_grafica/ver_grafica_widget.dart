@@ -63,7 +63,7 @@ class _VerGraficaWidgetState extends State<VerGraficaWidget> {
           ),
           title: Text(
             FFLocalizations.of(context).getText(
-              'jnkt9zf2' /* Page Title */,
+              'kvxim5vm' /* Page Title */,
             ),
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   font: GoogleFonts.interTight(

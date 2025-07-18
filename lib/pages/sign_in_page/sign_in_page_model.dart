@@ -52,7 +52,7 @@ class SignInPageModel extends FlutterFlowModel<SignInPageWidget> {
 
     if (!RegExp('^.{7,}\$').hasMatch(val)) {
       return FFLocalizations.of(context).getText(
-        'qn3i74uc' /* At least 10 characters */,
+        'qn3i74uc' /* At least 7 characters */,
       );
     }
     return null;

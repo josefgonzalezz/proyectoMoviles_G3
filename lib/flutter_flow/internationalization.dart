@@ -147,7 +147,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   // SignOutPage
   {
     '46q6z8c7': {
-      'es': 'Cerrar Sesion',
+      'es': 'Cerrar Sesione',
       'en': 'SignIn out',
     },
     '14elcxc5': {
@@ -165,6 +165,10 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'First name',
       'en': '',
     },
+    'jvi08s0m': {
+      'es': 'first name',
+      'en': '',
+    },
     '3mq9xfe6': {
       'es': 'Field is required',
       'en': '',
@@ -179,6 +183,10 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'luxakmdn': {
       'es': 'Last Name',
+      'en': '',
+    },
+    'l0835q4g': {
+      'es': 'second name',
       'en': '',
     },
     'g517s1l8': {
@@ -296,10 +304,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Page Title',
       'en': '',
     },
-    '2rk2kf7p': {
-      'es': 'Hello World',
-      'en': '',
-    },
     'jv1yiomm': {
       'es': 'Home',
       'en': '',
@@ -344,7 +348,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': '',
     },
     'qn3i74uc': {
-      'es': 'At least 10 characters',
+      'es': 'At least 7 characters',
       'en': '',
     },
     'a6ectxlh': {
@@ -374,35 +378,35 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Bienvenid@s a la aplicacion gastos ',
       'en': 'Home',
     },
-    'h0ihifbp': {
+    'ccizain2': {
       'es': 'Hello World',
       'en': '',
     },
-    'os8doy3t': {
+    'qsl01b1f': {
       'es': 'Hello World',
       'en': '',
     },
-    'n7at5gox': {
+    'i088pzen': {
       'es': 'Hello Worldd',
       'en': '',
     },
-    'ua4nyoa2': {
+    'rel62tax': {
       'es': 'Hello World',
       'en': '',
     },
-    'gn7daic8': {
+    'kncoqicn': {
       'es': 'Hello World',
       'en': '',
     },
-    'm0v6etob': {
+    '22gqk8vb': {
       'es': 'Hello World',
       'en': '',
     },
-    'vks1r6if': {
+    '5l7h4d8t': {
       'es': 'Hello World',
       'en': '',
     },
-    'qhsf4a3m': {
+    'giwumhw6': {
       'es': 'Hello World',
       'en': '',
     },
@@ -424,8 +428,20 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // verGastos
   {
-    'kvxim5vm': {
-      'es': 'Page Title',
+    'it8qb8iy': {
+      'es': 'Historial de gastos',
+      'en': '',
+    },
+    'w7919jea': {
+      'es': 'Hello World',
+      'en': '',
+    },
+    'qd7gsjy6': {
+      'es': 'Hello World',
+      'en': '',
+    },
+    'gp31xa28': {
+      'es': 'Hello World',
       'en': '',
     },
     'a5oatey9': {
@@ -435,7 +451,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // verGrafica
   {
-    'jnkt9zf2': {
+    'kvxim5vm': {
       'es': 'Page Title',
       'en': '',
     },

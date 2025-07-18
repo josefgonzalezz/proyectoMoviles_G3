@@ -55,16 +55,18 @@ class _SignInPageWidgetState extends State<SignInPageWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: Color(0xFF021426),
-        body: SafeArea(
-          top: true,
-          child: Column(
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              Container(
+        backgroundColor: Color(0xF112414F),
+        body: Column(
+          mainAxisSize: MainAxisSize.min,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Flexible(
+              child: Container(
                 width: MediaQuery.sizeOf(context).width * 1.0,
-                height: MediaQuery.sizeOf(context).height * 1.0,
+                height: MediaQuery.sizeOf(context).height * 2.0,
                 child: Stack(
+                  alignment: AlignmentDirectional(0.0, 1.0),
                   children: [
                     Align(
                       alignment: AlignmentDirectional(0.0, 0.0),
@@ -91,6 +93,7 @@ class _SignInPageWidgetState extends State<SignInPageWidget> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
+                              alignment: AlignmentDirectional(0.0, -1.0),
                               image: Image.asset(
                                 'assets/images/desktop-wallpaper-for-cell-phones-large-database-randoms.jpg',
                               ).image,
@@ -857,8 +860,8 @@ class _SignInPageWidgetState extends State<SignInPageWidget> {
                   ],
                 ),
               ),
-            ],
-          ),
+            ),
+          ],
         ),
       ),
     );

@@ -61,7 +61,7 @@ class _SignOutPageWidgetState extends State<SignOutPageWidget> {
           automaticallyImplyLeading: false,
           title: Text(
             FFLocalizations.of(context).getText(
-              '46q6z8c7' /* Cerrar Sesion */,
+              '46q6z8c7' /* Cerrar Sesione */,
             ),
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   font: GoogleFonts.interTight(
@@ -82,13 +82,6 @@ class _SignOutPageWidgetState extends State<SignOutPageWidget> {
           actions: [],
           centerTitle: false,
           elevation: 2.0,
-        ),
-        body: SafeArea(
-          top: true,
-          child: Column(
-            mainAxisSize: MainAxisSize.max,
-            children: [],
-          ),
         ),
       ),
     );
