@@ -415,17 +415,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Home',
     },
   },
-  // ingresarGasto
-  {
-    'f7ehieok': {
-      'es': 'Page Title',
-      'en': '',
-    },
-    'wzq0s2yi': {
-      'es': 'Home',
-      'en': '',
-    },
-  },
   // verGastos
   {
     'it8qb8iy': {
@@ -456,6 +445,117 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': '',
     },
     'fg3o19et': {
+      'es': 'Home',
+      'en': '',
+    },
+  },
+  // agregarTransaccion
+  {
+    '2b58o5t2': {
+      'es': 'Balance',
+      'en': '',
+    },
+    'lr03dnxl': {
+      'es': '₡69',
+      'en': '',
+    },
+    'g7sh7am4': {
+      'es': 'Agregar Dinero',
+      'en': '',
+    },
+    '1w6ootfy': {
+      'es': 'Transferir gasto',
+      'en': '',
+    },
+    'vqx83jkg': {
+      'es': 'Ahorro',
+      'en': '',
+    },
+    '34rcdc96': {
+      'es': '₡2000',
+      'en': '',
+    },
+    'ndd14nlh': {
+      'es': 'Comida',
+      'en': '',
+    },
+    'opkbqz8f': {
+      'es': '₡5000',
+      'en': '',
+    },
+    '615hj671': {
+      'es': 'Entretenimiento',
+      'en': '',
+    },
+    '3ctxjpnk': {
+      'es': '₡3700',
+      'en': '',
+    },
+    'oahdg5iu': {
+      'es': 'Otros',
+      'en': '',
+    },
+    'tkm6m4w2': {
+      'es': '₡3500',
+      'en': '',
+    },
+    'swnu5y77': {
+      'es': 'Transactions',
+      'en': '',
+    },
+    '2cisphuj': {
+      'es': 'Almuerzo',
+      'en': '',
+    },
+    'hyrza7mn': {
+      'es': 'Today,12:32pm',
+      'en': '',
+    },
+    'md94p8xb': {
+      'es': '₡5000',
+      'en': '',
+    },
+    'uy48vlch': {
+      'es': 'Spotify Suscription',
+      'en': '',
+    },
+    '3ho8urpr': {
+      'es': 'Today, 1:22pm',
+      'en': '',
+    },
+    'z82b3sv7': {
+      'es': '₡3700',
+      'en': '',
+    },
+    'm2huu51h': {
+      'es': 'Uber',
+      'en': '',
+    },
+    'nk22jnzr': {
+      'es': 'Today, 4:52pm',
+      'en': '',
+    },
+    '8faq7p8v': {
+      'es': '₡3500',
+      'en': '',
+    },
+    '0aywtp2a': {
+      'es': 'Ahorro',
+      'en': '',
+    },
+    'qhx6k5he': {
+      'es': 'Today, 7:42pm',
+      'en': '',
+    },
+    'dsgym5ny': {
+      'es': '₡2000',
+      'en': '',
+    },
+    '8kesd4c6': {
+      'es': 'Agregar Transaccion',
+      'en': '',
+    },
+    'z3o56po1': {
       'es': 'Home',
       'en': '',
     },

@@ -112,11 +112,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => HomePageWidget(),
         ),
         FFRoute(
-          name: IngresarGastoWidget.routeName,
-          path: IngresarGastoWidget.routePath,
-          builder: (context, params) => IngresarGastoWidget(),
-        ),
-        FFRoute(
           name: VerGastosWidget.routeName,
           path: VerGastosWidget.routePath,
           builder: (context, params) => VerGastosWidget(),
@@ -125,6 +120,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: VerGraficaWidget.routeName,
           path: VerGraficaWidget.routePath,
           builder: (context, params) => VerGraficaWidget(),
+        ),
+        FFRoute(
+          name: AgregarTransaccionWidget.routeName,
+          path: AgregarTransaccionWidget.routePath,
+          builder: (context, params) => AgregarTransaccionWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

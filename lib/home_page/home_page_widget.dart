@@ -122,7 +122,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           image: DecorationImage(
                                             fit: BoxFit.cover,
                                             image: Image.asset(
-                                              'assets/images/f8597b16db9df33ec36cbb430103ff0b.jpg',
+                                              'assets/images/image_(1).png',
                                             ).image,
                                           ),
                                           borderRadius:
@@ -219,9 +219,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                 child: Row(
                                   mainAxisSize: MainAxisSize.min,
                                   mainAxisAlignment:
-                                      MainAxisAlignment.spaceEvenly,
-                                  crossAxisAlignment:
-                                      CrossAxisAlignment.stretch,
+                                      MainAxisAlignment.spaceAround,
+                                  crossAxisAlignment: CrossAxisAlignment.center,
                                   children: [
                                     Stack(
                                       children: [
@@ -277,7 +276,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                         image: DecorationImage(
                                                           fit: BoxFit.cover,
                                                           image: Image.asset(
-                                                            'assets/images/f8597b16db9df33ec36cbb430103ff0b.jpg',
+                                                            'assets/images/SF_fotos_BLOG.png',
                                                           ).image,
                                                         ),
                                                         borderRadius:
@@ -447,7 +446,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                         image: DecorationImage(
                                                           fit: BoxFit.cover,
                                                           image: Image.asset(
-                                                            'assets/images/1b247ad096c8176a8754dd23485588c9.jpg',
+                                                            'assets/images/1366_2000_(1).jpg',
                                                           ).image,
                                                         ),
                                                         borderRadius:
@@ -547,13 +546,14 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                 context)
                                                             .primary,
                                                     icon: Icon(
-                                                      Icons.add_sharp,
+                                                      Icons.logout_sharp,
                                                       color: Colors.white,
                                                       size: 10.0,
                                                     ),
-                                                    onPressed: () {
-                                                      print(
-                                                          'addToCartButton pressed ...');
+                                                    onPressed: () async {
+                                                      context.pushNamed(
+                                                          VerGastosWidget
+                                                              .routeName);
                                                     },
                                                   ),
                                                 ),
@@ -563,7 +563,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         ),
                                       ],
                                     ),
-                                  ].divide(SizedBox(width: 20.0)),
+                                  ]
+                                      .divide(SizedBox(width: 20.0))
+                                      .around(SizedBox(width: 20.0)),
                                 ),
                               ),
                               Stack(
@@ -626,7 +628,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                       image: DecorationImage(
                                                         fit: BoxFit.cover,
                                                         image: Image.asset(
-                                                          'assets/images/f8597b16db9df33ec36cbb430103ff0b.jpg',
+                                                          'assets/images/grafica-de-datos-ES-Capterra-hea.jpg',
                                                         ).image,
                                                       ),
                                                       borderRadius:
