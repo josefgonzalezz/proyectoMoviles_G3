@@ -458,7 +458,7 @@ class _SignUpPageWidgetState extends State<SignUpPageWidget> {
                                                                 FFLocalizations.of(
                                                                         context)
                                                                     .getText(
-                                                              'l0835q4g' /* second name */,
+                                                              'l0835q4g' /* last name */,
                                                             ),
                                                             hintStyle:
                                                                 FlutterFlowTheme.of(
@@ -1899,7 +1899,10 @@ class _SignUpPageWidgetState extends State<SignUpPageWidget> {
                                                     );
                                                     GoRouter.of(context)
                                                         .prepareAuthEvent();
-                                                    await authManager.signIn();
+                                                    await authManager.signIn(
+                                                      authUid: _model
+                                                          .result?.reference.id,
+                                                    );
 
                                                     context.pushNamedAuth(
                                                         HomePageWidget

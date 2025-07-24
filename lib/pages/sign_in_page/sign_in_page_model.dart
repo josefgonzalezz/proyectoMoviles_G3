@@ -46,7 +46,7 @@ class SignInPageModel extends FlutterFlowModel<SignInPageWidget> {
       BuildContext context, String? val) {
     if (val == null || val.isEmpty) {
       return FFLocalizations.of(context).getText(
-        'y5ltk7y4' /* Field is required */,
+        'c1in816y' /* Field is required */,
       );
     }
 

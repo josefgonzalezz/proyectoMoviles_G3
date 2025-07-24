@@ -147,7 +147,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   // SignOutPage
   {
     '46q6z8c7': {
-      'es': 'Cerrar Sesione',
+      'es': 'Cerrar Sesion',
       'en': 'SignIn out',
     },
     '14elcxc5': {
@@ -173,6 +173,10 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Field is required',
       'en': '',
     },
+    '90o66i06': {
+      'es': 'Minimo tres letras',
+      'en': '',
+    },
     '6l4hi57r': {
       'es': 'Solo letras, sin espacios',
       'en': '',
@@ -186,11 +190,15 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': '',
     },
     'l0835q4g': {
-      'es': 'second name',
+      'es': 'last name',
       'en': '',
     },
     'g517s1l8': {
       'es': 'Field is required',
+      'en': '',
+    },
+    'o21x0tpj': {
+      'es': 'Minimos tres letras',
       'en': '',
     },
     '6hnqzjx2': {
@@ -217,7 +225,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Se necesita un gmail valido',
       'en': '',
     },
-    '82lu67s4': {
+    'aga3dotx': {
       'es': 'Please choose an option from the dropdown',
       'en': '',
     },
@@ -237,7 +245,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Al menos 7 caracteres',
       'en': '',
     },
-    'p7ru9enx': {
+    'z7xlf24p': {
       'es': 'Please choose an option from the dropdown',
       'en': '',
     },
@@ -253,7 +261,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'confirm password is required',
       'en': '',
     },
-    '1kidjqb9': {
+    'u0etwt5s': {
       'es': 'Please choose an option from the dropdown',
       'en': '',
     },
@@ -269,7 +277,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'mm/dd/yyyy is required',
       'en': '',
     },
-    'ccp16hbt': {
+    'n3h6adns': {
       'es': 'Please choose an option from the dropdown',
       'en': '',
     },
@@ -285,7 +293,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Ingrese un limite valido ',
       'en': '',
     },
-    'qvu0l4pn': {
+    '6n4df23b': {
       'es': 'Please choose an option from the dropdown',
       'en': '',
     },
@@ -296,17 +304,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     'k68z08j7': {
       'es': 'Casa',
       'en': 'Home',
-    },
-  },
-  // personalInformation
-  {
-    'l57d0myz': {
-      'es': 'Page Title',
-      'en': '',
-    },
-    'jv1yiomm': {
-      'es': 'Home',
-      'en': '',
     },
   },
   // SignInPage
@@ -343,7 +340,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Password',
       'en': '',
     },
-    'y5ltk7y4': {
+    'c1in816y': {
       'es': 'Field is required',
       'en': '',
     },
@@ -351,7 +348,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'At least 7 characters',
       'en': '',
     },
-    'a6ectxlh': {
+    '8e70lsle': {
       'es': 'Please choose an option from the dropdown',
       'en': '',
     },
@@ -374,40 +371,41 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // HomePage
   {
-    'bmenjvev': {
-      'es': 'Bienvenid@s a la aplicacion gastos ',
-      'en': 'Home',
-    },
     'ccizain2': {
-      'es': 'Hello World',
+      'es': 'Datos Personales',
       'en': '',
     },
     'qsl01b1f': {
-      'es': 'Hello World',
+      'es':
+          'Aquí podrás observar todos tus datos personales y podrás\nmodificar el gasto semanal previamente configurado\nal crear tu cuenta ',
       'en': '',
     },
     'i088pzen': {
-      'es': 'Hello Worldd',
+      'es': 'Gastos Diarios',
       'en': '',
     },
     'rel62tax': {
-      'es': 'Hello World',
+      'es': 'Ingresa los gastos que \nrealices a lo largo de \nla semana',
       'en': '',
     },
     'kncoqicn': {
-      'es': 'Hello World',
+      'es': 'Historial de Gastos',
       'en': '',
     },
     '22gqk8vb': {
-      'es': 'Hello World',
+      'es': 'Ingresa los gatos que \nrealices a lo largo\nde la semana ',
       'en': '',
     },
     '5l7h4d8t': {
-      'es': 'Hello World',
+      'es': 'Gastos en Grafíca',
       'en': '',
     },
     'giwumhw6': {
-      'es': 'Hello World',
+      'es': 'Ingresa los gastos que \nrealices a lo largo\nde la semana ',
+      'en': '',
+    },
+    '0v6g4fod': {
+      'es': 'Bienvenido/a ',
       'en': '',
     },
     '02vjg8ug': {
@@ -417,20 +415,16 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // verGastos
   {
-    'it8qb8iy': {
-      'es': 'Historial de gastos',
+    'prr2c6y6': {
+      'es': 'Historial de Gastos:',
       'en': '',
     },
-    'w7919jea': {
-      'es': 'Hello World',
+    'qx7iqh3n': {
+      'es': '/',
       'en': '',
     },
-    'qd7gsjy6': {
-      'es': 'Hello World',
-      'en': '',
-    },
-    'gp31xa28': {
-      'es': 'Hello World',
+    'wso1dl8b': {
+      'es': '/',
       'en': '',
     },
     'a5oatey9': {
@@ -444,118 +438,109 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Page Title',
       'en': '',
     },
-    'fg3o19et': {
+    'wzq0s2yi': {
       'es': 'Home',
       'en': '',
     },
   },
-  // agregarTransaccion
+  // ingresarGasto
   {
-    '2b58o5t2': {
-      'es': 'Balance',
+    'ic81wd5c': {
+      'es': 'Ingresar Gasto',
       'en': '',
     },
-    'lr03dnxl': {
-      'es': '₡69',
+    'w8vnkp0s': {
+      'es': 'Nombre de compra realizada: ',
       'en': '',
     },
-    'g7sh7am4': {
-      'es': 'Agregar Dinero',
+    'd13irgol': {
+      'es': 'compra',
       'en': '',
     },
-    '1w6ootfy': {
-      'es': 'Transferir gasto',
+    'z8e771bv': {
+      'es': 'Categoría: ',
       'en': '',
     },
-    'vqx83jkg': {
-      'es': 'Ahorro',
+    'g7d83wfx': {
+      'es': 'descripcion',
       'en': '',
     },
-    '34rcdc96': {
-      'es': '₡2000',
+    'vxnueb8m': {
+      'es': 'Costo:',
       'en': '',
     },
-    'ndd14nlh': {
-      'es': 'Comida',
+    '04nwp0u5': {
+      'es': 'costo',
       'en': '',
     },
-    'opkbqz8f': {
-      'es': '₡5000',
+    'bww2i052': {
+      'es': 'El costo es requerido',
       'en': '',
     },
-    '615hj671': {
-      'es': 'Entretenimiento',
+    'ckmej7m4': {
+      'es': 'Solo se permite numeros validos',
       'en': '',
     },
-    '3ctxjpnk': {
-      'es': '₡3700',
+    '3sn4deaq': {
+      'es': 'Please choose an option from the dropdown',
       'en': '',
     },
-    'oahdg5iu': {
-      'es': 'Otros',
+    'b3yy7nm7': {
+      'es': 'Comentario adicional:',
       'en': '',
     },
-    'tkm6m4w2': {
-      'es': '₡3500',
+    'iaxxto9m': {
+      'es': 'comentario',
       'en': '',
     },
-    'swnu5y77': {
-      'es': 'Transactions',
+    'ly2qmp43': {
+      'es': 'Ingresar Gasto',
       'en': '',
     },
-    '2cisphuj': {
-      'es': 'Almuerzo',
+    'enc84gez': {
+      'es': 'Home',
       'en': '',
     },
-    'hyrza7mn': {
-      'es': 'Today,12:32pm',
+  },
+  // personalInformation
+  {
+    '9nmu0u0t': {
+      'es': 'Mi perfil',
       'en': '',
     },
-    'md94p8xb': {
-      'es': '₡5000',
+    'p81jzj91': {
+      'es': 'Información de mi cuenta',
       'en': '',
     },
-    'uy48vlch': {
-      'es': 'Spotify Suscription',
+    '8yoxv88x': {
+      'es': 'Usuario:',
       'en': '',
     },
-    '3ho8urpr': {
-      'es': 'Today, 1:22pm',
+    'kv6c7loc': {
+      'es': 'Límite de Gasto:',
       'en': '',
     },
-    'z82b3sv7': {
-      'es': '₡3700',
+    'sva2s718': {
+      'es': 'editar',
       'en': '',
     },
-    'm2huu51h': {
-      'es': 'Uber',
+    'lsbkg8er': {
+      'es': 'Contraseña:',
       'en': '',
     },
-    'nk22jnzr': {
-      'es': 'Today, 4:52pm',
+    'pr7nerae': {
+      'es': 'editar',
       'en': '',
     },
-    '8faq7p8v': {
-      'es': '₡3500',
+    'qmb6dd7m': {
+      'es': 'Historial de gastos:',
       'en': '',
     },
-    '0aywtp2a': {
-      'es': 'Ahorro',
+    'ekgw8hmf': {
+      'es': 'Ir ahora',
       'en': '',
     },
-    'qhx6k5he': {
-      'es': 'Today, 7:42pm',
-      'en': '',
-    },
-    'dsgym5ny': {
-      'es': '₡2000',
-      'en': '',
-    },
-    '8kesd4c6': {
-      'es': 'Agregar Transaccion',
-      'en': '',
-    },
-    'z3o56po1': {
+    'fdrums13': {
       'es': 'Home',
       'en': '',
     },

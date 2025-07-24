@@ -3,6 +3,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'schema/util/firestore_util.dart';
 
 import 'schema/users_record.dart';
+import 'schema/gasto_realizado_record.dart';
 import 'schema/limite_semanal_record.dart';
 
 export 'dart:async' show StreamSubscription;
@@ -13,6 +14,7 @@ export 'schema/util/firestore_util.dart';
 export 'schema/util/schema_util.dart';
 
 export 'schema/users_record.dart';
+export 'schema/gasto_realizado_record.dart';
 export 'schema/limite_semanal_record.dart';
 
 /// Functions to query UsersRecords (as a Stream and as a Future).
@@ -47,6 +49,43 @@ Future<List<UsersRecord>> queryUsersRecordOnce({
     queryCollectionOnce(
       UsersRecord.collection,
       UsersRecord.fromSnapshot,
+      queryBuilder: queryBuilder,
+      limit: limit,
+      singleRecord: singleRecord,
+    );
+
+/// Functions to query GastoRealizadoRecords (as a Stream and as a Future).
+Future<int> queryGastoRealizadoRecordCount({
+  Query Function(Query)? queryBuilder,
+  int limit = -1,
+}) =>
+    queryCollectionCount(
+      GastoRealizadoRecord.collection,
+      queryBuilder: queryBuilder,
+      limit: limit,
+    );
+
+Stream<List<GastoRealizadoRecord>> queryGastoRealizadoRecord({
+  Query Function(Query)? queryBuilder,
+  int limit = -1,
+  bool singleRecord = false,
+}) =>
+    queryCollection(
+      GastoRealizadoRecord.collection,
+      GastoRealizadoRecord.fromSnapshot,
+      queryBuilder: queryBuilder,
+      limit: limit,
+      singleRecord: singleRecord,
+    );
+
+Future<List<GastoRealizadoRecord>> queryGastoRealizadoRecordOnce({
+  Query Function(Query)? queryBuilder,
+  int limit = -1,
+  bool singleRecord = false,
+}) =>
+    queryCollectionOnce(
+      GastoRealizadoRecord.collection,
+      GastoRealizadoRecord.fromSnapshot,
       queryBuilder: queryBuilder,
       limit: limit,
       singleRecord: singleRecord,

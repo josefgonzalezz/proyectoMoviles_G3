@@ -28,6 +28,12 @@ class SignUpPageModel extends FlutterFlowModel<SignUpPageWidget> {
       );
     }
 
+    if (val.length < 3) {
+      return FFLocalizations.of(context).getText(
+        '90o66i06' /* Minimo tres letras */,
+      );
+    }
+
     if (!RegExp('^[a-zA-Z]{3,20}\$').hasMatch(val)) {
       return FFLocalizations.of(context).getText(
         '6l4hi57r' /* Solo letras, sin espacios */,
@@ -46,6 +52,12 @@ class SignUpPageModel extends FlutterFlowModel<SignUpPageWidget> {
     if (val == null || val.isEmpty) {
       return FFLocalizations.of(context).getText(
         'g517s1l8' /* Field is required */,
+      );
+    }
+
+    if (val.length < 3) {
+      return FFLocalizations.of(context).getText(
+        'o21x0tpj' /* Minimos tres letras */,
       );
     }
 

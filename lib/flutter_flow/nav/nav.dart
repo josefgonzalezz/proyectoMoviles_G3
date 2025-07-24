@@ -97,11 +97,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => SignUpPageWidget(),
         ),
         FFRoute(
-          name: PersonalInformationWidget.routeName,
-          path: PersonalInformationWidget.routePath,
-          builder: (context, params) => PersonalInformationWidget(),
-        ),
-        FFRoute(
           name: SignInPageWidget.routeName,
           path: SignInPageWidget.routePath,
           builder: (context, params) => SignInPageWidget(),
@@ -122,9 +117,14 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => VerGraficaWidget(),
         ),
         FFRoute(
-          name: AgregarTransaccionWidget.routeName,
-          path: AgregarTransaccionWidget.routePath,
-          builder: (context, params) => AgregarTransaccionWidget(),
+          name: IngresarGastoWidget.routeName,
+          path: IngresarGastoWidget.routePath,
+          builder: (context, params) => IngresarGastoWidget(),
+        ),
+        FFRoute(
+          name: PersonalInformationWidget.routeName,
+          path: PersonalInformationWidget.routePath,
+          builder: (context, params) => PersonalInformationWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

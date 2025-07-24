@@ -55,7 +55,7 @@ class _SignInPageWidgetState extends State<SignInPageWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: Color(0xF112414F),
+        backgroundColor: Color(0xF10C2F3A),
         body: Column(
           mainAxisSize: MainAxisSize.min,
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -244,7 +244,7 @@ class _SignInPageWidgetState extends State<SignInPageWidget> {
                                                 Form(
                                                   key: _model.formKey1,
                                                   autovalidateMode:
-                                                      AutovalidateMode.always,
+                                                      AutovalidateMode.disabled,
                                                   child: Container(
                                                     width: double.infinity,
                                                     child: TextFormField(
@@ -452,7 +452,7 @@ class _SignInPageWidgetState extends State<SignInPageWidget> {
                                               Form(
                                                 key: _model.formKey2,
                                                 autovalidateMode:
-                                                    AutovalidateMode.always,
+                                                    AutovalidateMode.disabled,
                                                 child: Container(
                                                   width: double.infinity,
                                                   child: TextFormField(
@@ -705,7 +705,10 @@ class _SignInPageWidgetState extends State<SignInPageWidget> {
                                                   );
                                                   GoRouter.of(context)
                                                       .prepareAuthEvent();
-                                                  await authManager.signIn();
+                                                  await authManager.signIn(
+                                                    authUid: _model
+                                                        .result?.reference.id,
+                                                  );
                                                   _navigate = () =>
                                                       context.goNamedAuth(
                                                           HomePageWidget

@@ -8,6 +8,13 @@ service cloud.firestore {
       allow delete: if true;
     }
 
+    match /gastoRealizado/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if false;
+      allow delete: if false;
+    }
+
     match /limite_semanal/{document} {
       allow create: if true;
       allow read: if true;
